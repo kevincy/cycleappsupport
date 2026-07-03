@@ -14,4 +14,4 @@ Pages included:
 - `privacy.html` - privacy policy
 - `terms.html` - terms, wellness disclaimer, and contact information
 
-Last updated: June 29, 2026.
+Last updated: July 3, 2026.

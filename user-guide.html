@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MiraCycle User Guide</title>
-    <meta name="description" content="User guide for MiraCycle cycle tracking, calendar logging, voice entry, Insights, and PDF reports.">
+    <meta name="description" content="User guide for MiraCycle private period tracking, calendar logging, voice entry, Insights, privacy controls, and PDF reports.">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -23,64 +23,151 @@
     <main class="content">
       <article class="doc">
         <h1>User Guide</h1>
-        <p class="meta">Last updated: June 29, 2026</p>
+        <p class="meta">Last updated: July 3, 2026</p>
 
-        <p>MiraCycle is a private cycle journal for calendar-based cycle tracking, daily symptom logs, local insights, and doctor-ready PDF reports.</p>
+        <p>MiraCycle is a privacy-first period and cycle tracking app for calendar-based logging, local pattern insights, voice-assisted entry, safety controls, and user-controlled PDF reports.</p>
 
-        <h2>1. Getting Started</h2>
+        <p class="note">MiraCycle is for personal wellness tracking and record keeping. It does not diagnose, treat, prevent disease, provide contraception, or guarantee fertility or ovulation predictions.</p>
+
+        <h2>1. Privacy-First Basics</h2>
+        <p>MiraCycle is designed around private daily tracking. The current app experience does not require an account, does not show ads, and focuses on records saved on your device.</p>
+        <ul>
+          <li>No login is required to use the app.</li>
+          <li>No advertising SDK is used in the app experience.</li>
+          <li>Cycle predictions are estimates based on the period dates and logs you enter.</li>
+          <li>Voice input creates a draft. You review it before saving.</li>
+          <li>PDF exports are controlled by switches so you can choose what to include.</li>
+        </ul>
+
+        <h2>2. First-Time Setup</h2>
         <ol>
           <li>Open MiraCycle.</li>
-          <li>Complete onboarding by selecting the dates from your most recent period.</li>
-          <li>MiraCycle uses those calendar dates to estimate your current cycle timing.</li>
-          <li>You can update period dates later from the Calendar tab.</li>
+          <li>Use the onboarding calendar to select the dates from your most recent period.</li>
+          <li>Tap the start button to create your initial cycle profile.</li>
+          <li>MiraCycle uses your selected period dates to estimate cycle timing and upcoming calendar signals.</li>
         </ol>
+        <p>If your prediction looks wrong later, update your actual period dates in the Calendar tab. Real period history is more important than the original setup answer.</p>
 
-        <h2>2. Calendar-Based Logging</h2>
-        <p>The Calendar tab is the main place to record cycle information.</p>
+        <h2>3. Today Tab</h2>
+        <p>The Today tab gives a quick snapshot of your current cycle day, likely phase, next period countdown, and gentle planning suggestions.</p>
+        <ul>
+          <li>Use Today for a fast daily check-in.</li>
+          <li>Tap the calendar action to jump into calendar logging for today.</li>
+          <li>Treat phase guidance as wellness context, not medical advice.</li>
+        </ul>
+
+        <h2>4. Calendar Tab</h2>
+        <p>The Calendar tab is the main place to view and record cycle information. It shows actual period days, predicted period days, fertile-window estimates, ovulation estimates, and dates with saved logs.</p>
         <ol>
           <li>Open the Calendar tab.</li>
           <li>Tap a date.</li>
-          <li>Choose whether your period started, ended, or occurred on that date.</li>
-          <li>Add optional details such as flow, pain level, symptoms, mood, discharge, sleep, body metrics, sex/protection, and private notes.</li>
-          <li>Save the entry.</li>
+          <li>Use the daily record panel to mark whether your period came on that day.</li>
+          <li>Use period start or period end when you want MiraCycle to adjust a period range quickly.</li>
+          <li>Add optional daily details.</li>
+          <li>Tap Save.</li>
         </ol>
 
-        <h2>3. Voice-Assisted Entry</h2>
-        <p>MiraCycle can help turn spoken notes into a draft log. For example, you can say: “Period started today, light flow, cramps six out of ten, felt anxious, slept poorly.”</p>
+        <h2>5. Daily Records</h2>
+        <p>For each selected date, you can record the details that matter most for cycle awareness and symptom patterns.</p>
+        <ul>
+          <li>Period status: yes, no, period started, or period ended.</li>
+          <li>Flow: none, light, medium, heavy, or spotting.</li>
+          <li>Pain level: 0 to 10.</li>
+          <li>Symptoms: cramps, headache, fatigue, mood changes, cravings, bloating, sleep issues, spotting, and related symptoms.</li>
+          <li>Mood: quick mood selection for daily pattern review.</li>
+          <li>Discharge: optional cycle signal tracking.</li>
+          <li>Sleep: optional sleep quality tracking.</li>
+          <li>Sex and protection: optional sensitive field, hidden when sensitive-field privacy is enabled.</li>
+          <li>Body metrics: optional temperature and weight fields, hidden when sensitive-field privacy is enabled.</li>
+          <li>Private note: optional free-text note for context you want to remember.</li>
+        </ul>
+        <p>When typing in a field, use the keyboard Done button or scroll the page to dismiss the keyboard before changing sections.</p>
+
+        <h2>6. Voice-Assisted Entry</h2>
+        <p>Voice entry helps reduce manual typing. It listens to your spoken note, transcribes it, and prepares a draft log for review.</p>
         <ol>
-          <li>Tap the voice input button in the logging sheet.</li>
-          <li>Allow microphone and speech recognition access when prompted.</li>
-          <li>Speak your cycle note.</li>
-          <li>Review the draft fields.</li>
-          <li>Confirm before saving.</li>
+          <li>Open the Calendar tab and select a date.</li>
+          <li>Tap the microphone button in the daily record panel.</li>
+          <li>Allow Microphone and Speech Recognition permissions if prompted.</li>
+          <li>Speak naturally. For example: "Period started today, light flow, cramps six out of ten, anxious mood, slept poorly."</li>
+          <li>Review the parsed fields.</li>
+          <li>Tap the apply button only if the draft looks correct.</li>
+          <li>Save the record.</li>
         </ol>
-        <p class="note">Voice entry is designed to reduce typing. You should always review the draft before saving.</p>
+        <p class="note">Voice input is optional. The app should not save a voice-derived record until you apply and save the reviewed draft.</p>
 
-        <h2>4. Insights</h2>
-        <p>The Insights tab summarizes patterns based on your saved calendar logs. It can help you notice timing shifts, symptom clusters, pain patterns, and recurring mood or sleep changes.</p>
+        <h2>7. Insights Tab</h2>
+        <p>The Insights tab summarizes patterns from the information saved in your calendar logs. It is designed to help you notice recurring timing and wellness patterns locally.</p>
+        <ul>
+          <li>Upcoming cycle context.</li>
+          <li>Local symptom patterns.</li>
+          <li>Pain and flow trends.</li>
+          <li>Mood and sleep associations.</li>
+          <li>Cycle stability signals.</li>
+          <li>Doctor-ready report export.</li>
+        </ul>
+        <p>Insights are based on your saved logs. If a day was not saved in Calendar, it should not appear as user-entered information in the exported report.</p>
 
-        <h2>5. PDF Doctor Report</h2>
-        <p>MiraCycle can generate a local PDF summary for appointments. The report can include recent calendar logs, actual period history, cycle timing, and selected details.</p>
-        <p>File names use this format:</p>
+        <h2>8. PDF Report Export</h2>
+        <p>MiraCycle can generate a local PDF summary for a healthcare appointment or personal archive. The export is created from your calendar period history and saved daily logs.</p>
+        <p>Default report file name format:</p>
         <p><strong>MiraCycle_Report_YYYYMMDD-YYYYMMDD_YYYYMMDD_HHMMSS.pdf</strong></p>
+        <p>Before sharing, review the export switches in Insights. You can include or exclude:</p>
+        <ul>
+          <li>Period history.</li>
+          <li>Flow.</li>
+          <li>Pain.</li>
+          <li>Symptoms.</li>
+          <li>Mood.</li>
+          <li>Discharge.</li>
+          <li>Sleep.</li>
+          <li>Sex and protection.</li>
+          <li>Body metrics.</li>
+          <li>Private notes.</li>
+        </ul>
+        <p>Private notes, sex/protection, and body metrics can be sensitive. Keep those switches off unless you intentionally want to share them.</p>
 
-        <h2>6. Export Privacy Controls</h2>
-        <p>Before sharing a PDF report, use the export switches in Insights to choose what appears in the report. You can include or exclude period history, flow, pain, symptoms, mood, discharge, sleep, sex/protection, body metrics, and private notes.</p>
-        <p>Private notes, sex/protection, and body metrics are sensitive. Review export settings before sharing with anyone.</p>
+        <h2>9. Privacy Tab</h2>
+        <p>The Privacy tab contains controls for reducing accidental exposure of sensitive cycle data.</p>
+        <ul>
+          <li>Local-only storage preference.</li>
+          <li>Anonymous mode preference.</li>
+          <li>Optional sync preference, if available in your app version.</li>
+          <li>Include or exclude private notes in doctor reports.</li>
+          <li>Face ID app lock.</li>
+          <li>Quick Hide button.</li>
+          <li>Blur when the app is inactive.</li>
+          <li>Hide sensitive fields in daily logging.</li>
+          <li>Emergency local data deletion.</li>
+        </ul>
+        <p>Use Face ID lock and Quick Hide if you are concerned about someone seeing your phone while the app is open. Use emergency clear only when you intentionally want to remove local cycle data from the device.</p>
 
-        <h2>7. Deleting or Resetting Data</h2>
-        <p>If available in your version, open Privacy or Settings and choose the option to delete local data. This removes saved profile information, logs, period dates, and privacy settings from the device.</p>
+        <h2>10. Permissions</h2>
+        <h3>Microphone</h3>
+        <p>Used only when you choose voice entry.</p>
+        <h3>Speech Recognition</h3>
+        <p>Used to transcribe your spoken cycle note into a draft log.</p>
+        <h3>Face ID</h3>
+        <p>Used only when App Lock is enabled.</p>
+        <p>If a permission is denied, open iOS Settings, find MiraCycle, and adjust the permission there.</p>
 
-        <h2>8. Troubleshooting</h2>
-        <h3>My prediction looks wrong</h3>
-        <p>Update your actual period dates in the Calendar tab. Predictions improve when your logged dates reflect your real cycle history.</p>
+        <h2>11. iPhone and iPad</h2>
+        <p>MiraCycle supports iPhone and iPad. On iPad, the app is intended to run as a full-screen app. If it appears in a small compatibility window, make sure you are using the latest version from TestFlight or the App Store.</p>
+
+        <h2>12. Troubleshooting</h2>
+        <h3>My predicted period looks wrong</h3>
+        <p>Open Calendar and correct your actual period dates. Predictions improve when your saved period history reflects what actually happened.</p>
+        <h3>I cannot dismiss the keyboard</h3>
+        <p>Tap Done on the keyboard toolbar, scroll the page, save the entry, or switch sections. These actions should dismiss the keyboard in current versions.</p>
         <h3>Voice input is unavailable</h3>
-        <p>Check iOS Settings and make sure MiraCycle has microphone and speech recognition permissions.</p>
-        <h3>I cannot find the exported PDF</h3>
-        <p>Use the iOS share sheet to save the PDF to Files, send it by email, or share it with a clinician. The PDF is generated locally when you share it.</p>
+        <p>Check iOS Settings and confirm that MiraCycle has Microphone and Speech Recognition access. Also check that Speech Recognition is available for your device and language.</p>
+        <h3>The PDF does not include a field I expected</h3>
+        <p>Open Insights and check the export switches. The report includes only the categories that are turned on and available from saved calendar logs.</p>
+        <h3>I want to remove my data</h3>
+        <p>Open Privacy and use the emergency local data deletion option if available. This is intended to remove local app data from the device.</p>
 
-        <h2>9. Important Wellness Notice</h2>
-        <p>MiraCycle is for personal wellness tracking and record keeping. It does not diagnose, treat, prevent disease, provide contraception, or guarantee fertility predictions. Consult a qualified healthcare professional before making medical decisions.</p>
+        <h2>13. Wellness Notice</h2>
+        <p>MiraCycle is a wellness and personal record-keeping tool. It is not a medical device. It does not diagnose medical conditions, recommend treatment, provide contraception, or guarantee fertility, ovulation, or pregnancy outcomes. For medical questions, unusual symptoms, severe pain, heavy bleeding, pregnancy concerns, or urgent health issues, contact a qualified healthcare professional or emergency services.</p>
       </article>
     </main>
 
