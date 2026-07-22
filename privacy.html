@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MiraCycle Privacy Policy</title>
-    <meta name="description" content="Privacy policy for MiraCycle, a local-first cycle tracking app with private logs, voice entry, Face ID lock, and PDF export controls.">
+    <meta name="description" content="Privacy policy for MiraCycle, a local-first cycle tracking app with optional iCloud sync, private logs, voice entry, Face ID lock, and PDF export controls.">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -23,15 +23,16 @@
     <main class="content">
       <article class="doc">
         <h1>Privacy Policy</h1>
-        <p class="meta">Effective date: July 3, 2026</p>
+        <p class="meta">Effective date: July 22, 2026</p>
 
         <p>MiraCycle is designed as a local-first cycle tracking and wellness journaling app. This Privacy Policy explains what information the app may store, how it is used, what permissions are requested, and what privacy choices you have.</p>
 
         <h2>1. Summary</h2>
         <ul>
           <li>MiraCycle does not require an account for core tracking.</li>
-          <li>Cycle logs are stored locally on your device.</li>
-          <li>The developer does not collect your cycle logs through an app server in the current version.</li>
+          <li>Cycle logs are stored locally on your device by default.</li>
+          <li>Optional iCloud sync can sync your saved cycle data through your own Apple iCloud account when you turn it on.</li>
+          <li>The developer does not collect your cycle logs through a MiraCycle app server in the current version.</li>
           <li>The app does not include third-party advertising SDKs or third-party analytics SDKs in the current version.</li>
           <li>PDF reports are generated locally from your saved calendar logs.</li>
           <li>You choose which sensitive fields appear in exported PDF reports.</li>
@@ -53,14 +54,18 @@
         <p>MiraCycle uses your saved entries to provide core app features, including calendar display, cycle estimates, symptom patterns, local insights, and PDF summaries. Local insights may summarize cycle stability, pain trends, flow trends, mood and sleep associations, and PMS-style symptom patterns from the entries saved on your device.</p>
 
         <h2>4. Local Storage</h2>
-        <p>Core cycle data is stored on your device. In the current version, MiraCycle does not require a MiraCycle account or upload cycle logs to a MiraCycle server for core tracking.</p>
+        <p>Core cycle data is stored on your device by default. In the current version, MiraCycle does not require a MiraCycle account or upload cycle logs to a MiraCycle server for core tracking.</p>
         <p>If you delete the app, iOS may remove local app data according to system behavior. If you back up your device through Apple services, your app data may be included in your device backup depending on your iOS and iCloud settings.</p>
 
-        <h2>5. Voice Input</h2>
+        <h2>5. Optional iCloud Sync</h2>
+        <p>If you enable Optional iCloud Sync in the Privacy tab, MiraCycle uses Apple iCloud key-value storage to sync app data through the iCloud account signed in on your device. This can help you use MiraCycle across iPhone and iPad or restore data when moving to a new device.</p>
+        <p>Optional iCloud Sync is off by default. You can turn it off by disabling Optional iCloud Sync or turning Local-only storage back on. iCloud availability, retention, and device-to-device sync timing are controlled by Apple and your iCloud settings.</p>
+
+        <h2>6. Voice Input</h2>
         <p>If you use voice-assisted entry, MiraCycle asks for microphone and speech recognition permissions. Spoken input is used to create a draft cycle log for your review. You must apply and save the draft before it becomes a calendar entry.</p>
         <p>Speech recognition behavior may depend on Apple system services and your device settings. You can manage microphone and speech recognition permissions in iOS Settings.</p>
 
-        <h2>6. App Lock and Safety Controls</h2>
+        <h2>7. App Lock and Safety Controls</h2>
         <p>MiraCycle includes optional privacy and safety controls to reduce accidental exposure of sensitive information:</p>
         <ul>
           <li>Face ID app lock, when enabled by you.</li>
@@ -71,22 +76,23 @@
         </ul>
         <p>Face ID authentication is handled by iOS. MiraCycle does not receive or store your biometric data.</p>
 
-        <h2>7. PDF Export</h2>
+        <h2>8. PDF Export</h2>
         <p>PDF reports are generated locally from your saved calendar logs and current export settings. Before sharing a report, review the export privacy switches and the PDF content. After you share or save a PDF using the iOS share sheet, that file is controlled by the destination you choose.</p>
         <p>You can choose whether the PDF includes period history, flow, pain, symptoms, mood, discharge, sleep, sex/protection, body metrics, and private notes.</p>
 
-        <h2>8. Data Sharing</h2>
-        <p>MiraCycle does not require an account and does not intentionally share your cycle logs with third-party advertisers. Data may leave the app only when you choose to export, share, back up, use Apple system speech services, or otherwise transfer it using iOS or another service.</p>
+        <h2>9. Data Sharing</h2>
+        <p>MiraCycle does not require an account and does not intentionally share your cycle logs with third-party advertisers. Data may leave the app only when you choose to export, share, back up, enable iCloud sync, use Apple system speech services, or otherwise transfer it using iOS or another service.</p>
 
-        <h2>9. Analytics, Advertising, and Tracking</h2>
+        <h2>10. Analytics, Advertising, and Tracking</h2>
         <p>The current MiraCycle app is designed without third-party advertising SDKs, third-party analytics SDKs, or cross-app tracking. If this changes in a future version, this policy and the App Store privacy details should be updated before release.</p>
 
-        <h2>10. Children</h2>
+        <h2>11. Children</h2>
         <p>MiraCycle is not directed to children under 13. If you believe a child has provided personal information through the app, please contact support.</p>
 
-        <h2>11. Your Choices</h2>
+        <h2>12. Your Choices</h2>
         <ul>
           <li>You can choose what to record.</li>
+          <li>You can keep storage local-only or enable Optional iCloud Sync.</li>
           <li>You can exclude sensitive fields from PDF export.</li>
           <li>You can hide sensitive logging fields inside the app.</li>
           <li>You can enable or disable Face ID app lock, Quick Hide, and inactive-app blur.</li>
@@ -94,10 +100,10 @@
           <li>You can delete local data using the app’s emergency clear option when available, or by deleting the app from your device.</li>
         </ul>
 
-        <h2>12. Changes to This Policy</h2>
+        <h2>13. Changes to This Policy</h2>
         <p>This Privacy Policy may be updated as MiraCycle changes. The effective date at the top of this page shows when the policy was last updated.</p>
 
-        <h2>13. Contact</h2>
+        <h2>14. Contact</h2>
         <p>For support or privacy questions, open an issue at <a href="https://github.com/kevincy/cycleappsupport/issues">github.com/kevincy/cycleappsupport/issues</a>.</p>
 
         <p class="note">This policy is provided for product transparency and App Store review preparation. It is not legal advice. Consider having a qualified attorney review it before public launch.</p>
